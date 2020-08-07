@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25
+2020-06-25 -> 2020-08-07
 
 
 This is a work in progress until version 1.
@@ -143,36 +143,6 @@ $realform.methods_collection:
                         dir: ${app_dir}/config/data/Light_Kit_Admin_UserDatabase/Light_Realform
 
 
-$realist.methods_collection:
-    -
-        method: registerListRenderer
-        args:
-            identifier: Light_Kit_Admin_UserDatabase
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\Rendering\LightKitAdminRealistListRenderer
-    -
-        method: registerRealistRowsRenderer
-        args:
-            identifier: Light_Kit_Admin_UserDatabase
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\Rendering\LightKitAdminRealistRowsRenderer
-    -
-        method: registerActionHandler
-        args:
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\ActionHandler\LightKitAdminRealistActionHandler
-    -
-        method: registerListActionHandler
-        args:
-            plugin: Light_Kit_Admin_UserDatabase
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\ListActionHandler\LightKitAdminListActionHandler
-    -
-        method: registerListGeneralActionHandler
-        args:
-            plugin: Light_Kit_Admin_UserDatabase
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\ListGeneralActionHandler\LightKitAdminListGeneralActionHandler
 
 
 $upload_gems.methods_collection:
@@ -189,12 +159,19 @@ $upload_gems.methods_collection:
 
 
 
+
+
+
 ```
 
 
 
 History Log
 =============
+
+- 0.2.0 -- 2020-08-07
+
+    - update LightKitAdminUserDatabaseService, now use realist late registration
 
 - 0.1.0 -- 2020-06-25
 
