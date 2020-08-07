@@ -43,6 +43,9 @@ class LudPermissionGroupHasPermissionController extends RealGenController
 
         $table = "lud_permission_group_has_permission";
         $identifier = "Light_Kit_Admin_UserDatabase.generated/lud_permission_group_has_permission";
+
+        $this->lateRealFormRegistration($identifier);
+
         $parentLayout = "Light_Kit_Admin/kit/zeroadmin/dev/mainlayout_base";
         $vars = [
             "title" => "Permission group has permission form",

@@ -43,6 +43,9 @@ class LudUserGroupController extends RealGenController
 
         $table = "lud_user_group";
         $identifier = "Light_Kit_Admin_UserDatabase.generated/lud_user_group";
+
+        $this->lateRealFormRegistration($identifier);
+
         $parentLayout = "Light_Kit_Admin/kit/zeroadmin/dev/mainlayout_base";
         $vars = [
             "title" => "User group form",

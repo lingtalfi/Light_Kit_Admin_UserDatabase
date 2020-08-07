@@ -131,19 +131,6 @@ $plugin_installer.methods_collection:
             plugin: Light_Kit_Admin_UserDatabase
             installer: @service(kit_admin_user_database)
 
-$realform.methods_collection:
-    -
-        method: registerFormHandler
-        args:
-            plugin: Light_Kit_Admin_UserDatabase
-            handler:
-                instance: Ling\Light_Kit_Admin\Realform\Handler\LightKitAdminRealformHandler
-                methods:
-                    setConfDir:
-                        dir: ${app_dir}/config/data/Light_Kit_Admin_UserDatabase/Light_Realform
-
-
-
 
 $upload_gems.methods_collection:
     -
@@ -169,6 +156,10 @@ $upload_gems.methods_collection:
 History Log
 =============
 
+- 0.3.0 -- 2020-08-07
+
+    - update LightKitAdminUserDatabaseService, now use realform late registration
+    
 - 0.2.0 -- 2020-08-07
 
     - update LightKitAdminUserDatabaseService, now use realist late registration

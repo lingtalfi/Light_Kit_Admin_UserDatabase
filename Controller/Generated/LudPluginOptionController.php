@@ -43,6 +43,9 @@ class LudPluginOptionController extends RealGenController
 
         $table = "lud_plugin_option";
         $identifier = "Light_Kit_Admin_UserDatabase.generated/lud_plugin_option";
+
+        $this->lateRealFormRegistration($identifier);
+
         $parentLayout = "Light_Kit_Admin/kit/zeroadmin/dev/mainlayout_base";
         $vars = [
             "title" => "Plugin option form",

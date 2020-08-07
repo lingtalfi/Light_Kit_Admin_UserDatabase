@@ -120,7 +120,8 @@ Table of contents
     - [LightKitAdminUserDatabaseService::isInstalled](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/isInstalled.md) &ndash; Returns whether the core install phase of the plugin is fully completed.
     - [LightKitAdminUserDatabaseService::getDependencies](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/getDependencies.md) &ndash; Returns the array of dependencies.
     - [LightKitAdminUserDatabaseService::inject](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/inject.md) &ndash; Injects menu fragments in the given menu, knowing the "menuStructureId" context.
-    - [LightKitAdminUserDatabaseService::registerByRequestId](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/registerByRequestId.md) &ndash; Registers the plugin to the realist service.
+    - [LightKitAdminUserDatabaseService::registerRealistByRequestId](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/registerRealistByRequestId.md) &ndash; Registers the plugin to the realist service.
+    - [LightKitAdminUserDatabaseService::registerRealformByIdentifier](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/registerRealformByIdentifier.md) &ndash; Registers the plugin to the realform service.
 
 
 Dependencies

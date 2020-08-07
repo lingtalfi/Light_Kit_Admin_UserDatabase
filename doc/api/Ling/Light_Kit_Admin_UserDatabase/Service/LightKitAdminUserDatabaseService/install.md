@@ -54,7 +54,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [LightKitAdminUserDatabaseService::install](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/Service/LightKitAdminUserDatabaseService.php#L62-L67)
+See the source code for method [LightKitAdminUserDatabaseService::install](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/Service/LightKitAdminUserDatabaseService.php#L64-L69)
 
 
 See Also

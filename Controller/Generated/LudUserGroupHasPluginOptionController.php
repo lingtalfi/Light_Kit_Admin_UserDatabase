@@ -43,6 +43,9 @@ class LudUserGroupHasPluginOptionController extends RealGenController
 
         $table = "lud_user_group_has_plugin_option";
         $identifier = "Light_Kit_Admin_UserDatabase.generated/lud_user_group_has_plugin_option";
+
+        $this->lateRealFormRegistration($identifier);
+
         $parentLayout = "Light_Kit_Admin/kit/zeroadmin/dev/mainlayout_base";
         $vars = [
             "title" => "User group has plugin option form",
