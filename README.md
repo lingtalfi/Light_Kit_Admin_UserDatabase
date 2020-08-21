@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2020-08-07
+2020-06-25 -> 2020-08-21
 
 
 This is a work in progress until version 1.
@@ -156,6 +156,10 @@ $upload_gems.methods_collection:
 History Log
 =============
 
+- 0.4.0 -- 2020-08-21
+
+    - update service to work with micro-permission3
+    
 - 0.3.0 -- 2020-08-07
 
     - update LightKitAdminUserDatabaseService, now use realform late registration
