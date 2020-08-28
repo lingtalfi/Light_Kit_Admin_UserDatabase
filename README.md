@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2020-08-21
+2020-06-25 -> 2020-08-28
 
 
 This is a work in progress until version 1.
@@ -89,15 +89,6 @@ $controller_hub.methods_collection:
                         container: @container()
 
 
-$crud.methods_collection:
-    -
-        method: registerHandler
-        args:
-            pluginId: Light_Kit_Admin_UserDatabase
-            handler:
-                instance: Ling\Light_Kit_Admin\Crud\CrudRequestHandler\LightKitAdminCrudRequestHandler
-
-
 $easy_route.methods_collection:
     -
         method: registerBundleFile
@@ -156,6 +147,10 @@ $upload_gems.methods_collection:
 History Log
 =============
 
+- 0.5.0 -- 2020-08-28
+
+    - acknowledge new Light_Crud api  
+    
 - 0.4.0 -- 2020-08-21
 
     - update service to work with micro-permission3

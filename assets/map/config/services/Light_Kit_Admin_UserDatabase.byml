@@ -40,15 +40,6 @@ $controller_hub.methods_collection:
                         container: @container()
 
 
-$crud.methods_collection:
-    -
-        method: registerHandler
-        args:
-            pluginId: Light_Kit_Admin_UserDatabase
-            handler:
-                instance: Ling\Light_Kit_Admin\Crud\CrudRequestHandler\LightKitAdminCrudRequestHandler
-
-
 $easy_route.methods_collection:
     -
         method: registerBundleFile
