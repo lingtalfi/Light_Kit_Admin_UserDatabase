@@ -6,14 +6,13 @@ namespace Ling\Light_Kit_Admin_UserDatabase\Controller\Generated;
 
 use Ling\Light\Http\HttpResponseInterface;
 use Ling\Light_Kit\PageConfigurationUpdator\PageConfUpdator;
-use Ling\Light_UserRowRestriction\Service\LightUserRowRestrictionService;
-use Ling\Light_Kit_Admin_UserDatabase\Controller\Generated\Base\RealGenController;
+use Ling\Light_Kit_Admin\Controller\RealAdminPageController;
 
 
 /**
  * The LudPermissionGroupController class.
  */
-class LudPermissionGroupController extends RealGenController
+class LudPermissionGroupController extends RealAdminPageController
 {
 
     /**
@@ -40,23 +39,9 @@ class LudPermissionGroupController extends RealGenController
      */
     public function renderForm()
     {
-
-        $table = "lud_permission_group";
-        $identifier = "Light_Kit_Admin_UserDatabase.generated/lud_permission_group";
-
-        $this->lateRealFormRegistration($identifier);
-
-        $parentLayout = "Light_Kit_Admin/kit/zeroadmin/dev/mainlayout_base";
-        $vars = [
-            "title" => "Permission group form",
-        ];
-        if (array_key_exists("solo", $_GET)) {
-            $parentLayout = "Light_Kit_Admin/kit/zeroadmin/dev/mainlayout_solo";
-            $vars['related_links'] = []; // cancel any existing related links
-            $this->setOnSuccessIframeSignal("done");
-        }
-
-        $res = $this->processForm($identifier, $table);
+        $realformId = "Light_Kit_Admin_UserDatabase:generated/lud_permission_group";
+        $nugget = [];
+        $res = $this->processForm($realformId, $nugget);
 
         if ($res instanceof HttpResponseInterface) {
             return $res;
@@ -68,10 +53,10 @@ class LudPermissionGroupController extends RealGenController
         // RENDERING
         //--------------------------------------------
         return $this->renderAdminPage('Light_Kit_Admin_UserDatabase/kit/zeroadmin/generated/lud_permission_group_form', [
-            "parent_layout" => $parentLayout,
+            "parent_layout" => "Light_Kit_Admin/kit/zeroadmin/dev/mainlayout_base",
             "form" => $form,
         ], PageConfUpdator::create()->updateWidget("body.lka_chloroform", [
-            'vars' => $vars,
+            'vars' => $nugget["rendering"],
         ]));
     }
 }
