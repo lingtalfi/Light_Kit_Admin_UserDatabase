@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2020-11-26
+2020-06-25 -> 2020-11-27
 
 
 This is a work in progress until version 1.
@@ -138,6 +138,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 0.5.2 -- 2020-11-27
+
+    - update to accommodate latest Light_Kit api
+    
 - 0.5.1 -- 2020-11-26
 
     - update api to acknowledge use of Light_Nugget, and new Light_UserData api
