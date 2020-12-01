@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2020-11-27
+2020-06-25 -> 2020-12-01
 
 
 This is a work in progress until version 1.
@@ -66,23 +66,6 @@ $bmenu.methods_collection:
             injector: @service(kit_admin_user_database)
         
 
-        
-    
-
-$controller_hub.methods_collection: 
-    - 
-        method: registerHandler
-        args: 
-            plugin: Light_Kit_Admin_UserDatabase
-            handler: 
-                instance: Ling\Light_Kit_Admin_UserDatabase\ControllerHub\LightKitAdminUserDatabaseControllerHubHandler
-                methods: 
-                    setContainer: 
-                        container: @container()
-                    
-                
-            
-        
     
 
 $easy_route.methods_collection: 
@@ -138,6 +121,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 0.5.3 -- 2020-12-01
+
+    - update to accommodate latest Light_ControllerHub api
+    
 - 0.5.2 -- 2020-11-27
 
     - update to accommodate latest Light_Kit api

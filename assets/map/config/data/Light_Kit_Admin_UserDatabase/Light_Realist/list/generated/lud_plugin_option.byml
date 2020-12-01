@@ -197,7 +197,7 @@ rendering:
                         text: Edit
                         url_params_add_ric: true
                         url_params: 
-                            plugin: Light_Kit_Admin_UserDatabase
+                            plugin: Ling/Light_Kit_Admin_UserDatabase
                             controller: Generated/LudPluginOptionController
                             m: f
                         
@@ -251,7 +251,7 @@ rendering:
     related_links: 
         - 
             text: "Add new \"plugin option\" item"
-            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Light_Kit_Admin_UserDatabase, controller: Generated/LudPluginOptionController, m:f})
+            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserDatabase, controller: Generated/LudPluginOptionController, m:f})
             icon: fas fa-plus-circle
         
     

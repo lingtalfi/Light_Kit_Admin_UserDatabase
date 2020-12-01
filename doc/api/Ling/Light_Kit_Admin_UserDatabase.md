@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_UserDatabase
 ================
-2020-06-25 --> 2020-11-27
+2020-06-25 --> 2020-12-01
 
 
 
@@ -113,14 +113,6 @@ Table of contents
     - LightKitAdminController::setRoute &ndash; Sets the matching route to this controller instance.
     - LightKitAdminController::renderPage &ndash; Renders the given page using the [kit service](https://github.com/lingtalfi/Light_Kit).
     - LightController::setLight &ndash; Sets the light instance.
-- [LightKitAdminUserDatabaseControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/ControllerHub/Generated/LightKitAdminUserDatabaseControllerHubHandler.md) &ndash; The LightKitAdminUserDatabaseControllerHubHandler class.
-    - [LightKitAdminUserDatabaseControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/ControllerHub/Generated/LightKitAdminUserDatabaseControllerHubHandler/handle.md) &ndash; Process the given controllerIdentifier and returns an appropriate http response.
-    - LightBaseControllerHubHandler::__construct &ndash; Builds the LightKitAdminControllerHubHandler instance.
-    - LightBaseControllerHubHandler::setContainer &ndash; Sets the container.
-- [LightKitAdminUserDatabaseControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/ControllerHub/LightKitAdminUserDatabaseControllerHubHandler.md) &ndash; The LightKitAdminUserDatabaseControllerHubHandler class.
-    - [LightKitAdminUserDatabaseControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/ControllerHub/LightKitAdminUserDatabaseControllerHubHandler/handle.md) &ndash; Process the given controllerIdentifier and returns an appropriate http response.
-    - LightBaseControllerHubHandler::__construct &ndash; Builds the LightKitAdminControllerHubHandler instance.
-    - LightBaseControllerHubHandler::setContainer &ndash; Sets the container.
 - [LightKitAdminUserDatabaseLkaPlugin](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/LightKitAdminPlugin/Generated/LightKitAdminUserDatabaseLkaPlugin.md) &ndash; The LightKitAdminUserDatabaseLkaPlugin class.
     - BaseLightKitAdminPlugin::__construct &ndash; Builds the BaseLightKitAdminPlugin instance.
     - BaseLightKitAdminPlugin::getPluginOptions &ndash; Returns the options of this kit admin plugin.
@@ -129,6 +121,10 @@ Table of contents
     - BaseLightKitAdminPlugin::__construct &ndash; Builds the BaseLightKitAdminPlugin instance.
     - BaseLightKitAdminPlugin::getPluginOptions &ndash; Returns the options of this kit admin plugin.
     - BaseLightKitAdminPlugin::setOptionsFile &ndash; Sets the file.
+- [LightKitAdminUserDatabaseControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Light_ControllerHub/Generated/LightKitAdminUserDatabaseControllerHubHandler.md) &ndash; The LightKitAdminUserDatabaseControllerHubHandler class.
+    - [LightKitAdminUserDatabaseControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Light_ControllerHub/Generated/LightKitAdminUserDatabaseControllerHubHandler/handle.md) &ndash; Process the given controllerIdentifier and returns an appropriate http response.
+    - LightBaseControllerHubHandler::__construct &ndash; Builds the LightKitAdminControllerHubHandler instance.
+    - LightBaseControllerHubHandler::setContainer &ndash; Sets the light service container interface.
 - [LightKitAdminUserDatabaseService](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService.md) &ndash; The LightKitAdminUserDatabaseService class.
     - [LightKitAdminUserDatabaseService::__construct](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/__construct.md) &ndash; Builds the LightKitAdminUserDataService instance.
     - [LightKitAdminUserDatabaseService::setContainer](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/setContainer.md) &ndash; Sets the container.

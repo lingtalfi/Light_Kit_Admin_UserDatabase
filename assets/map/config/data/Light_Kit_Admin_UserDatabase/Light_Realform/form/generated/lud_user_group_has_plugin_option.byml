@@ -6,7 +6,7 @@ rendering:
     related_links: 
         - 
             text: "See the list of \"User group has plugin option\" items"
-            url: ::(@reverse_router->getUrl(lch_route-hub, {plugin: Light_Kit_Admin_UserDatabase, controller: Generated/LudUserGroupHasPluginOptionController}))::
+            url: ::(@reverse_router->getUrl(lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserDatabase, controller: Generated/LudUserGroupHasPluginOptionController}))::
             icon: fas fa-plus-circle
         
     
@@ -31,6 +31,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
             tableListDirectiveId: %{nuggetId}:chloroform.fields.user_group_id.tableListConf
             tableListConf: 
                 sql: select id as value, concat(id, '. ', name) as label from lud_user_group
@@ -53,6 +54,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
             tableListDirectiveId: %{nuggetId}:chloroform.fields.plugin_option_id.tableListConf
             tableListConf: 
                 sql: select id as value, concat(id, '. ', category) as label from lud_plugin_option

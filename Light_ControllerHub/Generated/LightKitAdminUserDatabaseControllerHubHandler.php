@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\Light_Kit_Admin_UserDatabase\ControllerHub;
+namespace Ling\Light_Kit_Admin_UserDatabase\Light_ControllerHub\Generated;
 
 
 use Ling\Light\Http\HttpRequestInterface;
@@ -21,7 +21,7 @@ class LightKitAdminUserDatabaseControllerHubHandler extends LightBaseControllerH
      */
     public function handle(string $controllerIdentifier, HttpRequestInterface $request): HttpResponseInterface
     {
-        return $this->doHandle(__DIR__ . "/../Controller", $controllerIdentifier, $request);
+        return $this->doHandle(__DIR__ . "/../../Controller", $controllerIdentifier, $request);
 
     }
 

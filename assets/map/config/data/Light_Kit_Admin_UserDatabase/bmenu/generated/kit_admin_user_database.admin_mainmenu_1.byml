@@ -10,7 +10,7 @@
             text: User group
             route: lch_route-hub
             route_url_params: 
-                plugin: Light_Kit_Admin_UserDatabase
+                plugin: Ling/Light_Kit_Admin_UserDatabase
                 controller: Generated/LudUserGroupController
             
             _right: Light_Kit_Admin.user
@@ -22,7 +22,7 @@
             text: User
             route: lch_route-hub
             route_url_params: 
-                plugin: Light_Kit_Admin_UserDatabase
+                plugin: Ling/Light_Kit_Admin_UserDatabase
                 controller: Generated/LudUserController
             
             _right: Light_Kit_Admin.user
@@ -34,7 +34,7 @@
             text: Permission group
             route: lch_route-hub
             route_url_params: 
-                plugin: Light_Kit_Admin_UserDatabase
+                plugin: Ling/Light_Kit_Admin_UserDatabase
                 controller: Generated/LudPermissionGroupController
             
             _right: Light_Kit_Admin.user
@@ -46,7 +46,7 @@
             text: Permission
             route: lch_route-hub
             route_url_params: 
-                plugin: Light_Kit_Admin_UserDatabase
+                plugin: Ling/Light_Kit_Admin_UserDatabase
                 controller: Generated/LudPermissionController
             
             _right: Light_Kit_Admin.user
@@ -58,7 +58,7 @@
             text: User/Permission group
             route: lch_route-hub
             route_url_params: 
-                plugin: Light_Kit_Admin_UserDatabase
+                plugin: Ling/Light_Kit_Admin_UserDatabase
                 controller: Generated/LudUserHasPermissionGroupController
             
             _right: Light_Kit_Admin.user
@@ -70,7 +70,7 @@
             text: Permission group/Permission
             route: lch_route-hub
             route_url_params: 
-                plugin: Light_Kit_Admin_UserDatabase
+                plugin: Ling/Light_Kit_Admin_UserDatabase
                 controller: Generated/LudPermissionGroupHasPermissionController
             
             _right: Light_Kit_Admin.user
@@ -82,7 +82,7 @@
             text: Plugin option
             route: lch_route-hub
             route_url_params: 
-                plugin: Light_Kit_Admin_UserDatabase
+                plugin: Ling/Light_Kit_Admin_UserDatabase
                 controller: Generated/LudPluginOptionController
             
             _right: Light_Kit_Admin.user
@@ -94,7 +94,7 @@
             text: User group/Plugin option
             route: lch_route-hub
             route_url_params: 
-                plugin: Light_Kit_Admin_UserDatabase
+                plugin: Ling/Light_Kit_Admin_UserDatabase
                 controller: Generated/LudUserGroupHasPluginOptionController
             
             _right: Light_Kit_Admin.user
@@ -108,7 +108,7 @@
     text: Tes table1
     route: lch_route-hub
     route_url_params: 
-        plugin: Light_Kit_Admin_UserDatabase
+        plugin: Ling/Light_Kit_Admin_UserDatabase
         controller: Generated/TesTable1Controller
     
     _right: Light_Kit_Admin.user

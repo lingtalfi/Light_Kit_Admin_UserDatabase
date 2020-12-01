@@ -193,7 +193,7 @@ rendering:
                         text: Edit
                         url_params_add_ric: true
                         url_params: 
-                            plugin: Light_Kit_Admin_UserDatabase
+                            plugin: Ling/Light_Kit_Admin_UserDatabase
                             controller: Generated/LudPermissionGroupHasPermissionController
                             m: f
                         
@@ -245,7 +245,7 @@ rendering:
                     id: permission_group_id
                 
                 url_params: 
-                    plugin: %{plugin}
+                    plugin: Ling/Light_Kit_Admin_UserDatabase
                     controller: Generated/LudPermissionGroupController
                     m: f
                 
@@ -257,7 +257,7 @@ rendering:
                     id: permission_id
                 
                 url_params: 
-                    plugin: %{plugin}
+                    plugin: Ling/Light_Kit_Admin_UserDatabase
                     controller: Generated/LudPermissionController
                     m: f
                 
@@ -271,7 +271,7 @@ rendering:
     related_links: 
         - 
             text: "Add new \"permission group has permission\" item"
-            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Light_Kit_Admin_UserDatabase, controller: Generated/LudPermissionGroupHasPermissionController, m:f})
+            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserDatabase, controller: Generated/LudPermissionGroupHasPermissionController, m:f})
             icon: fas fa-plus-circle
         
     

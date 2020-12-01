@@ -218,7 +218,7 @@ rendering:
                         text: Edit
                         url_params_add_ric: true
                         url_params: 
-                            plugin: Light_Kit_Admin_UserDatabase
+                            plugin: Ling/Light_Kit_Admin_UserDatabase
                             controller: Generated/LudUserController
                             m: f
                         
@@ -270,7 +270,7 @@ rendering:
                     id: user_group_id
                 
                 url_params: 
-                    plugin: %{plugin}
+                    plugin: Ling/Light_Kit_Admin_UserDatabase
                     controller: Generated/LudUserGroupController
                     m: f
                 
@@ -284,7 +284,7 @@ rendering:
     related_links: 
         - 
             text: "Add new \"user\" item"
-            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Light_Kit_Admin_UserDatabase, controller: Generated/LudUserController, m:f})
+            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserDatabase, controller: Generated/LudUserController, m:f})
             icon: fas fa-plus-circle
         
     

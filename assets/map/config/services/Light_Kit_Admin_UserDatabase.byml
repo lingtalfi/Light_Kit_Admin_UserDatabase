@@ -17,23 +17,6 @@ $bmenu.methods_collection:
             injector: @service(kit_admin_user_database)
         
 
-        
-    
-
-$controller_hub.methods_collection: 
-    - 
-        method: registerHandler
-        args: 
-            plugin: Light_Kit_Admin_UserDatabase
-            handler: 
-                instance: Ling\Light_Kit_Admin_UserDatabase\ControllerHub\LightKitAdminUserDatabaseControllerHubHandler
-                methods: 
-                    setContainer: 
-                        container: @container()
-                    
-                
-            
-        
     
 
 $easy_route.methods_collection: 
