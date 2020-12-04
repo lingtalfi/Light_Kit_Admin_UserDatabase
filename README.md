@@ -121,6 +121,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 0.5.4 -- 2020-12-04
+
+    - Add lpi-deps.byml file
+
 - 0.5.3 -- 2020-12-01
 
     - update to accommodate latest Light_ControllerHub api
