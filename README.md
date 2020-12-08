@@ -121,6 +121,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 0.5.5 -- 2020-12-08
+
+    - Fix lpi-deps not using natsort.
+
 - 0.5.4 -- 2020-12-04
 
     - Add lpi-deps.byml file
