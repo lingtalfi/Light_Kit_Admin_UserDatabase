@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2020-12-01
+2020-06-25 -> 2021-01-29
 
 
 This is a work in progress until version 1.
@@ -104,15 +104,7 @@ $micro_permission.methods_collection:
         args: 
             file: ${app_dir}/config/data/Light_Kit_Admin_UserDatabase/Light_MicroPermission/kit_admin_user_database.profile.generated.byml
         
-    
 
-$plugin_installer.methods_collection: 
-    - 
-        method: registerPlugin
-        args: 
-            plugin: Light_Kit_Admin_UserDatabase
-            installer: @service(kit_admin_user_database)
-        
     
 ```
 
@@ -121,9 +113,13 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 0.5.6 -- 2021-01-29
+
+    - adapt to work with new Light_PluginInstaller api
+  
 - 0.5.5 -- 2020-12-08
 
-    - Fix lpi-deps not using natsort.
+    - Fix lpi-deps not using natsort
 
 - 0.5.4 -- 2020-12-04
 
