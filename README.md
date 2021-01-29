@@ -113,6 +113,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+- 0.5.7 -- 2021-01-29
+
+    - update LightKitAdminUserDatabasePluginInstaller to use the default methods
+  
 - 0.5.6 -- 2021-01-29
 
     - adapt to work with new Light_PluginInstaller api
