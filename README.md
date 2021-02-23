@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2021-01-29
+2020-06-25 -> 2021-02-23
 
 
 This is a work in progress until version 1.
@@ -68,14 +68,6 @@ $bmenu.methods_collection:
 
     
 
-$easy_route.methods_collection: 
-    - 
-        method: registerBundleFile
-        args: 
-            file: config/data/Light_Kit_Admin_UserDatabase/Light_EasyRoute/lka_userdatabase_routes.byml
-        
-    
-
 $kit_admin.methods_collection: 
     - 
         method: registerPlugin
@@ -112,6 +104,11 @@ $micro_permission.methods_collection:
 
 History Log
 =============
+
+
+- 0.5.9 -- 2021-02-23
+
+  - switch to Light_EasyRoute open registration system
 
 - 0.5.8 -- 2021-02-19
 

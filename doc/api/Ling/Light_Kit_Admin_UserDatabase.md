@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_UserDatabase
 ================
-2020-06-25 --> 2021-01-29
+2020-06-25 --> 2021-02-23
 
 
 
@@ -125,14 +125,18 @@ Table of contents
     - [LightKitAdminUserDatabaseControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Light_ControllerHub/Generated/LightKitAdminUserDatabaseControllerHubHandler/handle.md) &ndash; Process the given controllerIdentifier and returns an appropriate http response.
     - LightBaseControllerHubHandler::__construct &ndash; Builds the LightKitAdminControllerHubHandler instance.
     - LightBaseControllerHubHandler::setContainer &ndash; Sets the light service container interface.
+- [LightKitAdminUserDatabasePlanetInstaller](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Light_PlanetInstaller/LightKitAdminUserDatabasePlanetInstaller.md) &ndash; The LightKitAdminUserDatabasePlanetInstaller class.
+    - [LightKitAdminUserDatabasePlanetInstaller::onMapCopyAfter](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Light_PlanetInstaller/LightKitAdminUserDatabasePlanetInstaller/onMapCopyAfter.md) &ndash; This hook is executed during an [install](https://github.com/lingtalfi/TheBar/blob/master/discussions/import-install.md#summary).
+    - LightBasePlanetInstaller::__construct &ndash; Builds the LightBasePlanetInstaller instance.
+    - LightBasePlanetInstaller::setContainer &ndash; Sets the light service container interface.
 - [LightKitAdminUserDatabasePluginInstaller](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Light_PluginInstaller/LightKitAdminUserDatabasePluginInstaller.md) &ndash; The LightKitAdminUserDatabasePluginInstaller class.
     - LightKitAdminBasePortPluginInstallerWithDatabase::__construct &ndash; Builds the LightKitAdminBasePluginInstallerWithDatabase instance.
     - LightKitAdminBasePortPluginInstallerWithDatabase::install &ndash; Installs the plugin in the light application.
     - LightKitAdminBasePortPluginInstallerWithDatabase::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
     - LightKitAdminBasePortPluginInstallerWithDatabase::uninstall &ndash; Uninstalls the plugin.
     - LightKitAdminBasePortPluginInstallerWithDatabase::getDependencies &ndash; Returns the array of dependencies.
-    - LightBasePluginInstaller::setContainer &ndash; Sets the container.
-    - LightBasePluginInstaller::getTableScope &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
+    - LightUserDatabaseBasePluginInstaller::setContainer &ndash; Sets the container.
+    - LightUserDatabaseBasePluginInstaller::getTableScope &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
 - [LightKitAdminUserDatabaseService](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService.md) &ndash; The LightKitAdminUserDatabaseService class.
     - [LightKitAdminUserDatabaseService::__construct](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/__construct.md) &ndash; Builds the LightKitAdminUserDataService instance.
     - [LightKitAdminUserDatabaseService::setContainer](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/setContainer.md) &ndash; Sets the container.
@@ -141,20 +145,23 @@ Table of contents
 
 Dependencies
 ============
+- [BabyYaml](https://github.com/lingtalfi/BabyYaml)
 - [Bat](https://github.com/lingtalfi/Bat)
 - [Chloroform](https://github.com/lingtalfi/Chloroform)
+- [CliTools](https://github.com/lingtalfi/CliTools)
 - [Light](https://github.com/lingtalfi/Light)
-- [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
-- [Light_Realform](https://github.com/lingtalfi/Light_Realform)
-- [Light_Kit](https://github.com/lingtalfi/Light_Kit)
-- [Light_Database](https://github.com/lingtalfi/Light_Database)
-- [Light_Nugget](https://github.com/lingtalfi/Light_Nugget)
-- [Light_UserDatabase](https://github.com/lingtalfi/Light_UserDatabase)
-- [Light_User](https://github.com/lingtalfi/Light_User)
-- [WiseTool](https://github.com/lingtalfi/WiseTool)
-- [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
-- [BabyYaml](https://github.com/lingtalfi/BabyYaml)
 - [Light_BMenu](https://github.com/lingtalfi/Light_BMenu)
+- [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
+- [Light_Database](https://github.com/lingtalfi/Light_Database)
+- [Light_EasyRoute](https://github.com/lingtalfi/Light_EasyRoute)
+- [Light_Kit](https://github.com/lingtalfi/Light_Kit)
+- [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
+- [Light_Nugget](https://github.com/lingtalfi/Light_Nugget)
+- [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
+- [Light_Realform](https://github.com/lingtalfi/Light_Realform)
+- [Light_User](https://github.com/lingtalfi/Light_User)
 - [Light_UserData](https://github.com/lingtalfi/Light_UserData)
+- [Light_UserDatabase](https://github.com/lingtalfi/Light_UserDatabase)
+- [WiseTool](https://github.com/lingtalfi/WiseTool)
 
 
