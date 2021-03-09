@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2021-03-05
+2020-06-25 -> 2021-03-09
 
 
 This is a work in progress until version 1.
@@ -111,6 +111,10 @@ History Log
 =============
 
 
+- 0.5.11 -- 2021-03-09
+
+    - update planet to adapt Ling.Light_Kit_Admin:0.12.25
+  
 - 0.5.10 -- 2021-03-05
 
     - update README.md, add install alternative
