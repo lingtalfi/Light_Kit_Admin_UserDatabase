@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2021-03-09
+2020-06-25 -> 2021-03-15
 
 
 This is a work in progress until version 1.
@@ -82,7 +82,7 @@ $kit_admin.methods_collection:
                 instance: Ling\Light_Kit_Admin_UserDatabase\LightKitAdminPlugin\LightKitAdminUserDatabaseLkaPlugin
                 methods: 
                     setOptionsFile: 
-                        file: ${app_dir}/config/data/Light_Kit_Admin_UserDatabase/Light_Kit_Admin/lka-options.byml
+                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_Kit_Admin/lka-options.byml
                     
                 
             
@@ -93,13 +93,13 @@ $micro_permission.methods_collection:
     - 
         method: registerMicroPermissionsByFile
         args: 
-            file: ${app_dir}/config/data/Light_Kit_Admin_UserDatabase/Light_MicroPermission/lka_userdatabase-micro-permissions.byml
+            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_MicroPermission/lka_userdatabase-micro-permissions.byml
         
     
     - 
         method: registerMicroPermissionsByProfile
         args: 
-            file: ${app_dir}/config/data/Light_Kit_Admin_UserDatabase/Light_MicroPermission/kit_admin_user_database.profile.generated.byml
+            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_MicroPermission/kit_admin_user_database.profile.generated.byml
         
 
     
@@ -110,6 +110,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+
+- 0.5.12 -- 2021-03-15
+
+    - update planet to adapt Ling.Light:0.70.0
 
 - 0.5.11 -- 2021-03-09
 
