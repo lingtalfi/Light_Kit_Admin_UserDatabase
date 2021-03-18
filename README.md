@@ -95,6 +95,10 @@ History Log
 =============
 
 
+- 0.5.14 -- 2021-03-18
+
+    - fix bmenus items not prefixed with galaxy
+  
 - 0.5.13 -- 2021-03-18
 
     - update planet to adapt Ling.Light_BMenu:2.0.0
