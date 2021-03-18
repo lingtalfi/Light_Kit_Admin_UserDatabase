@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2021-03-15
+2020-06-25 -> 2021-03-18
 
 
 This is a work in progress until version 1.
@@ -63,14 +63,12 @@ kit_admin_user_database:
 # --------------------------------------
 # hooks
 # --------------------------------------
-$bmenu.methods_collection: 
+$micro_permission.methods_collection: 
     - 
-        method: addDirectInjector
+        method: registerMicroPermissionsByProfile
         args: 
-            menuType: admin_main_menu
-            injector: @service(kit_admin_user_database)
+            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_MicroPermission/kit_admin_user_database.profile.generated.byml
         
-
     
 
 $kit_admin.methods_collection: 
@@ -79,29 +77,15 @@ $kit_admin.methods_collection:
         args: 
             pluginName: Light_Kit_Admin_UserDatabase
             plugin: 
-                instance: Ling\Light_Kit_Admin_UserDatabase\LightKitAdminPlugin\LightKitAdminUserDatabaseLkaPlugin
+                instance: Ling\Light_Kit_Admin_UserDatabase\LightKitAdminPlugin\Generated\LightKitAdminUserDatabaseLkaPlugin
                 methods: 
                     setOptionsFile: 
-                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_Kit_Admin/lka-options.byml
+                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_Kit_Admin/lka-options.generated.byml
                     
                 
             
         
     
-
-$micro_permission.methods_collection: 
-    - 
-        method: registerMicroPermissionsByFile
-        args: 
-            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_MicroPermission/lka_userdatabase-micro-permissions.byml
-        
-    
-    - 
-        method: registerMicroPermissionsByProfile
-        args: 
-            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_MicroPermission/kit_admin_user_database.profile.generated.byml
-        
-
     
 ```
 
@@ -111,6 +95,10 @@ History Log
 =============
 
 
+- 0.5.13 -- 2021-03-18
+
+    - update planet to adapt Ling.Light_BMenu:2.0.0
+  
 - 0.5.12 -- 2021-03-15
 
     - update planet to adapt Ling.Light:0.70.0
