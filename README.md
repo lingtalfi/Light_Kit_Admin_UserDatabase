@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2021-03-18
+2020-06-25 -> 2021-03-23
 
 
 This is a work in progress until version 1.
@@ -94,6 +94,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+
+- 0.5.15 -- 2021-03-23
+
+    - adapt api to Ling.Light_Realist:2.0.15
 
 - 0.5.14 -- 2021-03-18
 

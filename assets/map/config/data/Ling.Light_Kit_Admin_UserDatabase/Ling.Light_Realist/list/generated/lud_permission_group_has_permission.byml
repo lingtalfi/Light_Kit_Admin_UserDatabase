@@ -272,7 +272,7 @@ rendering:
     related_links: 
         - 
             text: "Add new \"permission group has permission\" item"
-            url: REALIST(Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserDatabase, controller: Generated/LudPermissionGroupHasPermissionController, m:f})
+            url: REALIST(Ling.Light_Realist, route, lch_route-hub, {plugin: Ling/Light_Kit_Admin_UserDatabase, controller: Generated/LudPermissionGroupHasPermissionController, m:f})
             icon: fas fa-plus-circle
         
     
