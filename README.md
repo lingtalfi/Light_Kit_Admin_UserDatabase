@@ -95,6 +95,10 @@ History Log
 =============
 
 
+- 0.5.17 -- 2021-05-11
+
+    - Update deps (by CommitWizard).
+
 - 0.5.16 -- 2021-05-11
 
     - Update dependencies to Ling.Light_EasyRoute (pushed by SubscribersUtil)
