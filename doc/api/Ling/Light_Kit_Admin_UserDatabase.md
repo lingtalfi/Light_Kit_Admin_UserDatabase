@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_UserDatabase
 ================
-2020-06-25 --> 2021-05-31
+2020-06-25 --> 2021-06-03
 
 
 
@@ -141,14 +141,6 @@ Table of contents
     - [LightKitAdminUserDatabasePlanetInstaller::undoInit2](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Light_PlanetInstaller/LightKitAdminUserDatabasePlanetInstaller/undoInit2.md) &ndash; Undoes the init 2 phase.
     - LightBasePlanetInstaller::__construct &ndash; Builds the LightBasePlanetInstaller instance.
     - LightBasePlanetInstaller::setContainer &ndash; Sets the light service container interface.
-- [LightKitAdminUserDatabasePluginInstaller](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Light_PluginInstaller/LightKitAdminUserDatabasePluginInstaller.md) &ndash; The LightKitAdminUserDatabasePluginInstaller class.
-    - LightKitAdminBasePortPluginInstallerWithDatabase::__construct &ndash; Builds the LightKitAdminBasePluginInstallerWithDatabase instance.
-    - LightKitAdminBasePortPluginInstallerWithDatabase::install &ndash; Installs the plugin in the light application.
-    - LightKitAdminBasePortPluginInstallerWithDatabase::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
-    - LightKitAdminBasePortPluginInstallerWithDatabase::uninstall &ndash; Uninstalls the plugin.
-    - LightKitAdminBasePortPluginInstallerWithDatabase::getDependencies &ndash; Returns the array of dependencies.
-    - LightUserDatabaseBasePluginInstaller::setContainer &ndash; Sets the container.
-    - LightUserDatabaseBasePluginInstaller::getTableScope &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
 - [LightKitAdminUserDatabaseService](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService.md) &ndash; The LightKitAdminUserDatabaseService class.
     - [LightKitAdminUserDatabaseService::__construct](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/__construct.md) &ndash; Builds the LightKitAdminUserDataService instance.
     - [LightKitAdminUserDatabaseService::setContainer](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/doc/api/Ling/Light_Kit_Admin_UserDatabase/Service/LightKitAdminUserDatabaseService/setContainer.md) &ndash; Sets the container.

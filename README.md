@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2021-05-31
+2020-06-25 -> 2021-06-03
 
 
 This is a work in progress until version 1.
@@ -95,6 +95,10 @@ History Log
 =============
 
 
+- 0.5.20 -- 2021-06-03
+
+    - adapt api to work with Light_PlanetInstaller:2.0.4
+  
 - 0.5.19 -- 2021-05-31
 
     - Removing trailing plus in lpi-deps file (to work with Light_PlanetInstaller:2.0.0 api
