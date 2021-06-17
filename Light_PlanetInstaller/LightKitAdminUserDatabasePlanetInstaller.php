@@ -46,6 +46,7 @@ class LightKitAdminUserDatabasePlanetInstaller extends LightBasePlanetInstaller 
         $util->setContainer($this->container);
 
         $f = $appDir . "/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_BMenu/admin_main_menu.custom.byml";
+//        $f = $appDir . "/config/data/Ling.Light_Kit_Admin_UserDatabase/Ling.Light_BMenu/generated/admin_main_menu.byml";
         $items = BabyYamlUtil::readFile($f);
         $adminItems = $items['admin'];
         $userItems = $items['user'];

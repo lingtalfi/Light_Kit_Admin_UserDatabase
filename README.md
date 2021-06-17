@@ -87,6 +87,10 @@ History Log
 =============
 
 
+- 0.5.23 -- 2021-06-17
+
+    - checkpoint commit
+  
 - 0.5.22 -- 2021-06-17
 
     - checkpoint commit

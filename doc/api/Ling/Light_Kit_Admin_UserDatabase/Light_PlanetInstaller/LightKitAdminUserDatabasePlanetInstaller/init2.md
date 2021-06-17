@@ -59,7 +59,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightKitAdminUserDatabasePlanetInstaller::init2](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/Light_PlanetInstaller/LightKitAdminUserDatabasePlanetInstaller.php#L27-L82)
+See the source code for method [LightKitAdminUserDatabasePlanetInstaller::init2](https://github.com/lingtalfi/Light_Kit_Admin_UserDatabase/blob/master/Light_PlanetInstaller/LightKitAdminUserDatabasePlanetInstaller.php#L27-L83)
 
 
 See Also
