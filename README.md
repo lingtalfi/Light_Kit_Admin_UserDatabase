@@ -87,6 +87,10 @@ History Log
 =============
 
 
+- 0.5.24 -- 2021-06-17
+
+    - fix LightKitAdminUserDatabasePlanetInstaller not registering realist/realform
+  
 - 0.5.23 -- 2021-06-17
 
     - checkpoint commit

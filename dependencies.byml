@@ -14,6 +14,7 @@ dependencies:
         - Light_Nugget
         - Light_PlanetInstaller
         - Light_Realform
+        - Light_Realist
         - Light_User
         - Light_UserData
         - Light_UserDatabase

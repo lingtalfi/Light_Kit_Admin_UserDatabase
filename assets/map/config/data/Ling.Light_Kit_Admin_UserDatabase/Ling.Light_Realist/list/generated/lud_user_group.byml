@@ -183,7 +183,7 @@ rendering:
                         text: Edit
                         url_params_add_ric: true
                         url_params: 
-                            execute: Ling\Light_Kit_Admin_UserDatabase\Controller\Generated/LudUserGroupController->render
+                            execute: Ling\Light_Kit_Admin_UserDatabase\Controller\Generated\LudUserGroupController->render
                             m: f
                         
                         icon: fas fa-edit

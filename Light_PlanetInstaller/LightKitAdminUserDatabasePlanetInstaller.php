@@ -12,6 +12,8 @@ use Ling\Light_Kit_Admin_UserDatabase\Exception\LightKitAdminUserDatabaseExcepti
 use Ling\Light_MicroPermission\Service\LightMicroPermissionService;
 use Ling\Light_PlanetInstaller\PlanetInstaller\LightBasePlanetInstaller;
 use Ling\Light_PlanetInstaller\PlanetInstaller\LightPlanetInstallerInit2HookInterface;
+use Ling\Light_Realform\Helper\LightRealformConfigurationFileRegistrationHelper;
+use Ling\Light_Realist\Helper\RequestDeclarationHelper;
 
 
 /**
@@ -59,6 +61,28 @@ class LightKitAdminUserDatabasePlanetInstaller extends LightBasePlanetInstaller 
         $output->write("$planetDotName: registering menu items in lka user section...");
         $util->writeItemsToMainMenuSection("user", $userItems);
         $output->write("<success>ok.</success>" . PHP_EOL);
+
+
+
+        //--------------------------------------------
+        // realist
+        //--------------------------------------------
+        $d = $appDir . "/config/data/$planetDotName/Ling.Light_Realist/list";
+        if (true === is_dir($d)) {
+            $output->write("$planetDotName: registering Ling.Light_Realist <b>request declarations</b> from <b>$d</b>." . PHP_EOL);
+            RequestDeclarationHelper::registerRequestDeclarationsByDirectory($output, $appDir, $planetDotName, $d);
+        }
+
+
+        //--------------------------------------------
+        // realform
+        //--------------------------------------------
+        $d = $appDir . "/config/data/$planetDotName/Ling.Light_Realform/form";
+        if (true === is_dir($d)) {
+            $output->write("$planetDotName: registering Ling.Light_Realform nuggets from <b>$d</b>." . PHP_EOL);
+            LightRealformConfigurationFileRegistrationHelper::registerConfigurationFileByDirectory($output, $appDir, $planetDotName, $d);
+        }
+
 
 
         //--------------------------------------------
@@ -119,6 +143,26 @@ class LightKitAdminUserDatabasePlanetInstaller extends LightBasePlanetInstaller 
         $output->write("$planetDotName: unregistering menu items from lka user section...");
         $util->removeItemsFromMainMenuSection("user", $userItems);
         $output->write("<success>ok.</success>" . PHP_EOL);
+
+
+        //--------------------------------------------
+        // realist
+        //--------------------------------------------
+        $d = $appDir . "/config/data/$planetDotName/Ling.Light_Realist/list";
+        if (true === is_dir($d)) {
+            $output->write("$planetDotName: unregistering Ling.Light_Realist <b>request declarations</b> from <b>$d</b>." . PHP_EOL);
+            RequestDeclarationHelper::unregisterRequestDeclarationsByDirectory($output, $appDir, $planetDotName, $d);
+        }
+
+
+        //--------------------------------------------
+        // realform
+        //--------------------------------------------
+        $d = $appDir . "/config/data/$planetDotName/Ling.Light_Realform/form";
+        if (true === is_dir($d)) {
+            $output->write("$planetDotName: unregistering Ling.Light_Realform nuggets from <b>$d</b>." . PHP_EOL);
+            LightRealformConfigurationFileRegistrationHelper::unregisterConfigurationFileByDirectory($output, $appDir, $planetDotName, $d);
+        }
 
 
         //--------------------------------------------

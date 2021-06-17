@@ -163,6 +163,7 @@ Dependencies
 - [Light_Nugget](https://github.com/lingtalfi/Light_Nugget)
 - [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
 - [Light_Realform](https://github.com/lingtalfi/Light_Realform)
+- [Light_Realist](https://github.com/lingtalfi/Light_Realist)
 - [Light_User](https://github.com/lingtalfi/Light_User)
 - [Light_UserData](https://github.com/lingtalfi/Light_UserData)
 - [Light_UserDatabase](https://github.com/lingtalfi/Light_UserDatabase)

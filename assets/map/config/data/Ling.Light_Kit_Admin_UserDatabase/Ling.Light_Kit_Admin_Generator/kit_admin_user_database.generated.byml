@@ -274,7 +274,7 @@ list:
                     text: Edit
                     url_params_add_ric: true
                     url_params:
-                        execute: !{galaxyName}\!{plugin}\Controller\Generated/{TableClass}Controller->render
+                        execute: !{galaxyName}\!{plugin}\Controller\Generated\{TableClass}Controller->render
                         m: f
                     icon: fas fa-edit
 
