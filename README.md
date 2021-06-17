@@ -87,6 +87,10 @@ History Log
 =============
 
 
+- 0.5.22 -- 2021-06-17
+
+    - checkpoint commit
+  
 - 0.5.21 -- 2021-06-17
 
     - switch to micro-permission open registration system
