@@ -1,6 +1,6 @@
 Light_Kit_Admin_UserDatabase
 ===========
-2020-06-25 -> 2021-06-17
+2020-06-25 -> 2021-06-18
 
 
 This is a work in progress until version 1.
@@ -87,6 +87,10 @@ History Log
 =============
 
 
+- 0.5.25 -- 2021-06-18
+
+    - update api to work with Ling.Light_Kit_Admin:0.13.0
+  
 - 0.5.24 -- 2021-06-17
 
     - fix LightKitAdminUserDatabasePlanetInstaller not registering realist/realform
